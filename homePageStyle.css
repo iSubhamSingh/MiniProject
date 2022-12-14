@@ -1,0 +1,68 @@
+html {
+    height: 100%;
+    margin: 0;
+  }
+body{
+    font-family: 'Roboto';
+    margin: 3rem 5rem;
+    
+      /* background: url("cards.jpg"); */
+      /* background-repeat: no-repeat; */
+      background-image: url("https://img.freepik.com/free-vector/futuristic-technological-background_79603-1097.jpg?w=740&t=st=1671038953~exp=1671039553~hmac=d9ffe9e004133bbb336101871956e09ad38f2d11ff567b26e9143df01771100a");
+  
+      /* Full height */
+      height: 100%; 
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 500px;
+    
+}
+
+button{
+    background-color: yellow;
+    padding: 30px;
+    position: relative;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 210px;
+    border-radius: 30px;
+    font-weight: bolder;
+    font-size: 50px;
+    cursor: pointer;
+}
+.father{
+    display: flex;
+    justify-content: space-between;
+}
+.child1{
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    
+}
+.child2{
+    display: flex;
+    justify-content: start;
+    gap: 24px;
+}
+a{
+    padding: 5px 10px;
+    font-size: 28px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #e53819;
+}
+a:hover{
+    /* background-color: aliceblue; */
+    color: rgb(21, 215, 128);
+    border: 2px solid red;
+}
+
+button:hover{
+    background-color: rgb(202, 19, 222);
+    width: 400px;
+}
+
